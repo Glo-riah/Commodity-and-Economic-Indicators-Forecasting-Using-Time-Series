@@ -23,7 +23,6 @@ default_commodity = 'Bread(400g)'
 default_month = 'April'
 default_year = '2023'
 
-# Define a function to get the forecasted price for a given commodity, month, and year
 def get_forecast_price(commodity, month, year):
     # Get the index of the commodity
     commodity_index = commodity_indices[commodity]
